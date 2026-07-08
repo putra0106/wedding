@@ -1,0 +1,28 @@
+/* src/components/StatusMessage/StatusMessage.module.css */
+
+.wrap {
+  padding: 48px 20px;
+  text-align: center;
+  border-radius: var(--radius-md);
+}
+
+.text {
+  font-size: 14px;
+  margin: 0;
+}
+
+.loading .text {
+  color: var(--color-text-muted);
+}
+
+.error {
+  background-color: #fbeaea;
+}
+
+.error .text {
+  color: #b3413a;
+}
+
+.empty .text {
+  color: var(--color-text-muted);
+}
