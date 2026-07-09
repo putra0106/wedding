@@ -1,21 +1,18 @@
-/* src/index.css */
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap");
-
 :root {
   /* ===== Color tokens ===== */
-  --color-bg: #fbf7f4;          /* ivory blush - latar utama */
-  --color-surface: #ffffff;      /* kartu / panel */
-  --color-text: #2e2a28;         /* teks utama, hangat gelap */
-  --color-text-muted: #8a7f78;   /* teks sekunder */
-  --color-accent: #b5768a;       /* dusty rose - identitas wedding */
-  --color-accent-dark: #8f5468;
-  --color-accent-soft: #f4e6ea;  /* aksen lembut untuk badge/hover */
+  --color-bg: #f0f1e7; /* ivory blush - latar utama */
+  --color-surface: #faf9f4; /* kartu / panel */
+  --color-text: #14160f; /* teks utama, hangat gelap */
+  --color-text-muted: #8a7f78; /* teks sekunder */
+  --color-accent: #baff29; /* dusty rose - identitas wedding */
+  --color-accent-dark: #0b0d0a;
+  --color-accent-soft: #baff29; aksen lembut untuk badge/hover
   --color-border: #ece2dc;
   --color-whatsapp: #25d366;
 
   /* ===== Typography tokens ===== */
-  --font-display: "Cormorant Garamond", Georgia, serif;
-  --font-body: "Manrope", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: "Sora", "Segoe UI", sans-serif;
+  --font-body: "Manrope", "Segoe UI", sans-serif;
 
   /* ===== Layout tokens ===== */
   --radius-sm: 6px;
