@@ -8,7 +8,7 @@ const PRICING_PLANS = [
   {
     id: "basic",
     name: "Basic",
-    price: "Rp 60.000",
+    price: "Rp 75.000",
     highlight: false,
     features: [
       "1 halaman undangan digital",
@@ -22,7 +22,7 @@ const PRICING_PLANS = [
   {
     id: "standard",
     name: "Standard",
-    price: "Rp 100.000",
+    price: "Rp 125.000",
     highlight: true, // paket paling direkomendasikan
     features: [
       "Semua fitur paket Basic",
